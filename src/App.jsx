@@ -1,5 +1,8 @@
 import "./App.css";
+import IconBtn from "./components/button/IconBtn";
+import MessageBtn from "./components/button/Message";
 import PrimaryBtn from "./components/button/Primary";
+import SecondaryBtn from "./components/button/Seconday";
 
 function App() {
   return (
@@ -18,6 +21,15 @@ function App() {
         Grand et full et disabled
       </PrimaryBtn>
       <br />
+      <hr />
+      <br />
+      <SecondaryBtn size="lg">Secondary buttun 1 - disabled</SecondaryBtn>
+      <hr />
+      <br />
+      <MessageBtn />
+      <hr />
+      <br />
+      <IconBtn />
     </div>
   );
 }
