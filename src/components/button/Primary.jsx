@@ -31,7 +31,7 @@ function PrimaryBtn({
       <button
         onClick={handleClick}
         disabled={disabled}
-        className={`bg-blue-500 hover:bg-blue-700 active:bg-blue-800 text-white font-semibold py-2.5 px-6 rounded-lg shadow-md hover:shadow-lg ${sizeClasses[size]} ${fullClass} ${disabledClasse}`}
+        className={`bg-blue-600 hover:bg-blue-700 active:bg-blue-800 text-white font-semibold py-2.5 px-6 rounded-lg shadow-md hover:shadow-lg ${sizeClasses[size]} ${fullClass} ${disabledClasse}`}
       >
         {loading ? "Loading...." : children}
       </button>
