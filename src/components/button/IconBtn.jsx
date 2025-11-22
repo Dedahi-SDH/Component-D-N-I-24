@@ -1,0 +1,77 @@
+function IconBtn() {
+  return (
+    <div>
+      <button
+        type="button"
+        class="inline-flex items-center justify-center  text-fg-brand bg-neutral-primary border border-brand hover:bg-brand hover:text-white focus:ring-4 focus:ring-brand-subtle rounded-base w-8 h-8 focus:outline-none"
+      >
+        <svg
+          class="w-5 h-5"
+          aria-hidden="true"
+          xmlns="http://www.w3.org/2000/svg"
+          width="24"
+          height="24"
+          fill="none"
+          viewBox="0 0 24 24"
+        >
+          <path
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            d="M12.01 6.001C6.5 1 1 8 5.782 13.001L12.011 20l6.23-7C23 8 17.5 1 12.01 6.002Z"
+          />
+        </svg>
+        <span class="sr-only">Icon description</span>
+      </button>
+      <button
+        type="button"
+        class="inline-flex items-center justify-center  text-fg-brand bg-neutral-primary border border-brand hover:bg-brand hover:text-white focus:ring-4 focus:ring-brand-subtle rounded-base w-9 h-9 focus:outline-none"
+      >
+        <svg
+          class="w-5 h-5"
+          aria-hidden="true"
+          xmlns="http://www.w3.org/2000/svg"
+          width="24"
+          height="24"
+          fill="none"
+          viewBox="0 0 24 24"
+        >
+          <path
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            d="M12.01 6.001C6.5 1 1 8 5.782 13.001L12.011 20l6.23-7C23 8 17.5 1 12.01 6.002Z"
+          />
+        </svg>
+        <span class="sr-only">Icon description</span>
+      </button>
+      <button
+        type="button"
+        class="inline-flex items-center justify-center  text-fg-brand bg-neutral-primary border border-brand hover:bg-red-600 hover:rounded-lg hover:text-white focus:ring-4 focus:ring-brand-subtle rounded w-10 h-10 focus:outline-none"
+      >
+        <svg
+          class="w-5 h-5"
+          aria-hidden="true"
+          xmlns="http://www.w3.org/2000/svg"
+          width="24"
+          height="24"
+          fill="none"
+          viewBox="0 0 24 24"
+        >
+          <path
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            d="M12.01 6.001C6.5 1 1 8 5.782 13.001L12.011 20l6.23-7C23 8 17.5 1 12.01 6.002Z"
+          />
+        </svg>
+        <span class="sr-only">Icon description</span>
+      </button>
+    </div>
+  );
+}
+
+export default IconBtn;
